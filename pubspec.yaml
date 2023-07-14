@@ -1,0 +1,38 @@
+name: gallery
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.6 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.5
+  bot_toast: ^4.0.4
+  logger: ^1.4.0
+  google_fonts: ^5.1.0
+  http: ^1.1.0
+  cached_network_image: ^3.2.3
+  intl: ^0.18.1
+  dartz: ^0.10.1
+  share_plus: ^7.0.2
+  flutter_cache_manager: ^3.3.1
+  path_provider: ^2.0.15
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.2
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
