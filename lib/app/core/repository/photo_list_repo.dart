@@ -2,10 +2,10 @@ import 'package:bot_toast/bot_toast.dart';
 import 'package:dartz/dartz.dart';
 import 'package:flutter/cupertino.dart';
 
-import '../../resource/urls.dart';
-import '../../utils/api_client.dart';
-import '../../utils/failure/app_error.dart';
-import '../model/photo_list_model.dart';
+import '../resource/urls.dart';
+import '../utils/api_client.dart';
+import '../utils/failure/app_error.dart';
+import '../../model/photo_list_model.dart';
 
 class PhotoListRepository {
   Future<Either<AppError, List<PhotoListModel>>> fetchPhotoListData(

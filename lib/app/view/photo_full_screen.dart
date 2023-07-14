@@ -2,8 +2,8 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import '../../resource/string_resource.dart';
-import '../../utils/share_helper.dart';
+import '../core/resource/string_resource.dart';
+import '../core/utils/share_helper.dart';
 
 class PhotoFullScreen extends StatefulWidget {
   final String imageUrl;
@@ -17,7 +17,7 @@ class PhotoFullScreen extends StatefulWidget {
       : super(key: key);
 
   @override
-  _PhotoFullScreenState createState() => _PhotoFullScreenState();
+  State<PhotoFullScreen> createState() => _PhotoFullScreenState();
 }
 
 class _PhotoFullScreenState extends State<PhotoFullScreen> {

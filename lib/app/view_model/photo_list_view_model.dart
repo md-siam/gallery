@@ -1,10 +1,10 @@
 import 'package:bot_toast/bot_toast.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:provider/src/provider.dart';
+import 'package:provider/provider.dart';
 
-import '../../utils/failure/app_error.dart';
+import '../core/utils/failure/app_error.dart';
 import '../model/photo_list_model.dart';
-import '../repository/photo_list_repo.dart';
+import '../core/repository/photo_list_repo.dart';
 
 class PhotoListViewModel extends ChangeNotifier {
   static PhotoListViewModel read(BuildContext context) =>

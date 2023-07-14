@@ -1,18 +1,17 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:gallery/photo_gallery/view/photo_full_screen.dart';
-import 'package:gallery/photo_gallery/view/widget/photo_list_card.dart';
+import 'package:gallery/app/view/photo_full_screen.dart';
+import 'package:gallery/app/widget/photo_list_card.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import '../../resource/string_resource.dart';
-import '../../resource/theme.dart';
+import '../core/resource/string_resource.dart';
+import '../core/resource/theme.dart';
 import '../view_model/photo_list_view_model.dart';
 
 class PhotoListScreen extends StatefulWidget {
   const PhotoListScreen({Key? key}) : super(key: key);
 
   @override
-  _PhotoListScreenState createState() => _PhotoListScreenState();
+ State<PhotoListScreen> createState() =>  _PhotoListScreenState();
 }
 
 class _PhotoListScreenState extends State<PhotoListScreen> {

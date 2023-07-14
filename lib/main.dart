@@ -2,9 +2,9 @@ import 'package:bot_toast/bot_toast.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'photo_gallery/view/photo_list_screen.dart';
-import 'photo_gallery/view_model/photo_list_view_model.dart';
-import 'resource/theme.dart';
+import 'app/view/photo_list_screen.dart';
+import 'app/view_model/photo_list_view_model.dart';
+import 'app/core/resource/theme.dart';
 
 void main() {
   runApp(const MyApp());

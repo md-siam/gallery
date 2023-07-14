@@ -2,10 +2,9 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import '../../../resource/theme.dart';
-import '../../../resource/urls.dart';
-import '../../model/photo_list_model.dart';
-
+import '../core/resource/theme.dart';
+import '../core/resource/urls.dart';
+import '../model/photo_list_model.dart';
 
 class PhotoCardWidget extends StatelessWidget {
   final PhotoListModel? photoData;
@@ -16,7 +15,7 @@ class PhotoCardWidget extends StatelessWidget {
     return Stack(
       alignment: AlignmentDirectional.bottomStart,
       children: [
-        Container(
+        SizedBox(
           height: MediaQuery.of(context).size.width * .47,
           width: MediaQuery.of(context).size.width * .47,
           child: ClipRRect(
