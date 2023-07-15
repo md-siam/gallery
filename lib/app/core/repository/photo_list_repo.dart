@@ -4,7 +4,7 @@ import 'package:flutter/cupertino.dart';
 
 import '../resource/urls.dart';
 import '../utils/api_client.dart';
-import '../utils/failure/app_error.dart';
+import '../utils/app_error.dart';
 import '../../model/photo_list_model.dart';
 
 class PhotoListRepository {

@@ -19,9 +19,8 @@ This app uses repository pattern for implementing a rest API.
     │   │   │   ├── theme.dart
     │   │   │   └── urls.dart
     │   │   └── utils
-    │   │       ├── failure
-    │   │       │   └── app_error.dart
     │   │       ├── api_client.dart
+    │   │       ├── app_error.dart
     │   │       ├── download_helper.dart
     │   │       ├── share_helper.dart
     │   │       └── wallpaper_set_helper.dart
